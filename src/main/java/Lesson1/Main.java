@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 Man man1 = new Man() {
     @Override
-    public double jump(Wall wall) {
+    public double jump(int height) {
         return 0;
     }
 };

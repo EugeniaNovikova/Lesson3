@@ -12,8 +12,13 @@ public class Cat implements CanJump {
 
     }
 
-    @Override
+
     public double jump(Wall wall) {
+        return 0;
+    }
+
+    @Override
+    public double jump(int height) {
         return 0;
     }
 }

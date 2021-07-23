@@ -1,7 +1,6 @@
 package Lesson1;
 
-public class CanRun {
-    public interface CanRun {
-        double run(Treadmill treadmill);
+public interface CanRun {
+        double run(int lenght);
     }
-}
+
